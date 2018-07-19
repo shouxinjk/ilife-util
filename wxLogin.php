@@ -2,9 +2,9 @@
 //声明CODE，获取小程序传过来的CODE
 $code = $_GET["code"];
 //配置appid
-$appid = "修改成你小程序的APPID";
+$appid = "wx099102889bea2294";
 //配置appscret
-$secret = "修改成你小程序的APPSECRET";
+$secret = "b270727d79c92070ae044f1b50f6b21e";
 //api接口
 $api = "https://api.weixin.qq.com/sns/jscode2session?appid={$appid}&secret={$secret}&js_code={$code}&grant_type=authorization_code";
 //获取GET请求
